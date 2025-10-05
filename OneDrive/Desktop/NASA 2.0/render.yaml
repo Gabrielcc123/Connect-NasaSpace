@@ -3,8 +3,8 @@ services:
     name: nasa-fire-monitor
     env: node
     plan: free
-    buildCommand: cd CONTROLLERFINALFINAL/backend && npm install
-    startCommand: cd CONTROLLERFINALFINAL/backend && npm start
+    buildCommand: npm install
+    startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production
